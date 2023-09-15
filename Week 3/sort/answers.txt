@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: bubble sort has a lower big Omega than selection sort for already sorted numbers, which is reflected in the run time of 'sort1'
+
+sort2 uses: merge sort
+
+How do you know?: merge sort is the best performing algorithm for large numbers, which is reflected in the run time of 'sort2'
+
+sort3 uses: selection sort
+
+How do you know?: the big Omega of selection sort is the worst performing for already sorted numbers which is reflected in the run time of 'sort3'
