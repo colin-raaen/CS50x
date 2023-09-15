@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script src="trivia.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div id="multiChoice" class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- multiple choice question -->
+                <h3>What year did the United States declare independence?</h3>
+                <form id="multiplechoice">
+                    <input type="submit" value="1865" id="option-1865"/>
+                    <input type="submit" value="1776" id="option-1776"/>
+                    <input type="submit" value="1777" id="option-1777"/>
+                    <input type="submit" value="1609" id="option-1609"/>
+                    <input type="submit" value="None of the above" id="option-none"/>
+                </form>
+            </div>
+
+            <div id="FreeFormDiv" class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- free response question -->
+                <h3>What type of sandwich is the best?</h3>
+                <form id="freeForm">
+                    <input type="text" autocomplete="off" autofocus placeholder="Sandwich" id="free-form"/>
+                    <input type="submit" value="Check Answer" id="freeFormAnswer"/>
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>
